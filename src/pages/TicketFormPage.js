@@ -153,6 +153,7 @@ function TicketFormPage() {
           placeholder="e.g. Technical, Billing"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
+          disabled={isEdit}
         />
       </div>
 
@@ -163,6 +164,7 @@ function TicketFormPage() {
           placeholder="e.g. High, Medium, Low"
           value={priority}
           onChange={(e) => setPriority(e.target.value)}
+          disabled={isEdit}
         />
       </div>
 
