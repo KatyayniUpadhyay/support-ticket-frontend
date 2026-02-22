@@ -13,7 +13,7 @@ function TicketsPage() {
   const [priorityFilter, setPriorityFilter] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
 
-  const BASE_URL = "http://127.0.0.1:8000/api/tickets/";
+  const BASE_URL = "http://localhost:8000/api/tickets/";
 
   // 🔹 Debounce logic (1.5s)
   useEffect(() => {
