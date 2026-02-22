@@ -190,6 +190,7 @@ function TicketsPage() {
           ))}
         </tbody>
       </table>
+      <div><h3>click on status to change ticket status</h3></div>
     </div>
   );
 }
